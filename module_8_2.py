@@ -22,7 +22,6 @@ def calculate_average(numbers):
         print("В numbers записан некорректный тип данных")
         return None
 
-# Тестовые вызовы функций
 print(f'Результат 1: {calculate_average("1, 2, 3")}')  # Некорректные символы строки
 print(f'Результат 2: {calculate_average([1, "Строка", 3, "Ещё Строка"])}')  # Смешанные данные
 print(f'Результат 3: {calculate_average(567)}')  # Передан не список, а число
